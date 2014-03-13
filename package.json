@@ -1,0 +1,24 @@
+{
+  "name": "DWD",
+  "version": "0.0.0",
+  "description": "This example app is so cool.",
+  "main": "new.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XinyiDeng/DWD-Server"
+  },
+  "keywords": [
+    "first",
+    "heroku"
+  ],
+  "author": "Xinyi Deng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinyiDeng/DWD-Server/issues"
+  },
+  "homepage": "https://github.com/XinyiDeng/DWD-Server"
+}
