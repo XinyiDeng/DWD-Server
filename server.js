@@ -8,4 +8,8 @@ var server = http.createServer(function(req, res){
   });
 var port = Number(process.env.PORT || 5000);
 console.log('Listening on port', port);
+<<<<<<< HEAD
 server.listen(port);
+=======
+server.listen(port);
+>>>>>>> FETCH_HEAD
