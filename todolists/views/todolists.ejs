@@ -1,0 +1,11 @@
+<h1>TO DO LISTS</h1>
+
+<ul>
+<% todolists.forEach(function(todolist){ %>
+  <li><a href="/todolists/<%= todolist.url %>"><%= todolist.name %></a></li>
+<% }) %>
+</ul>
+
+
+
+<!-- The Structure-->

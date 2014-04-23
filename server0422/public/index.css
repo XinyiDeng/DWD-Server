@@ -1,0 +1,174 @@
+body {
+
+	background-color: #c8c8c8;
+	background-color: hsl(0,0%,78%);
+	/*opacity: 0.5;*/
+	font-family: Heletica, "Comic Sans MS", Impact;
+	font-size: 0.8em;
+	text-align: left;
+
+	width: 960px;
+	margin: 0 auto;
+
+
+
+}
+
+h1 {
+
+	background-color: DarkCyan;
+	font-size: 3.6em;
+	
+}
+
+h2 {
+
+	background-color: #ee3e80;
+	font-size: 1.2em;
+	
+}
+
+p {
+
+	background-color: white;
+	
+}
+
+#content {
+
+	overflow: auto;
+	height: 100%;
+
+}
+
+li {
+
+	display: inline;
+	padding: 1.6em;
+}
+
+#tab-group h2 {
+
+	text-align: left;
+}
+
+.ready {
+
+	position: relative;
+	margin-bottom: 2em;
+}
+
+#tab-group.ready .tab-header {
+
+	font-weight: normal;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 4px 6px;
+}
+
+.ready .tab-header {
+
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0.25em 0.5em;
+	left: 0;
+
+	background: #b9c6aa;
+	border: 1px solid #999;
+	border-radius: 4px 4px 0 0;
+	z-index: 2;
+
+	cursor: pointer;
+}
+
+.ready .tab-header.active {
+	background: white;
+	border-bottom-color: white;
+}
+
+.ready .tab-content {
+	position: relative;
+	top: 0;
+	margin: 0;
+	padding: 0.5em;
+	top: 24px;
+	border: 1px solid #999;
+	z-index: 1;
+	background: white;
+	
+	zoom: 1;
+}
+
+.ready .tab-content:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.ready #tab-header-2 {
+	left: 7em;
+}
+
+.ready #tab-header-3 {
+	left: 14em;
+}
+
+.ready #tab-header-4 {
+	left: 21em;
+}
+
+.ready #tab-header-5 {
+	left: 28em;
+}
+
+.ready .tab-content {
+	display: none;
+}
+
+.ready .tab-content p {
+	margin: 0;
+	padding: 0 0 1em;
+}
+
+.ready .tab-content.active {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
