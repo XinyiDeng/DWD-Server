@@ -21,6 +21,10 @@
   	"ejs":"0.7.2"
   	},
   "author": "Xinyi",
-  "license": "ISC"
+  "license": "ISC",
+  {
+    "engines": {
       "node": "0.10.x"
+    }
+  }
 }
